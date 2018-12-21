@@ -1,0 +1,126 @@
+    /* general */
+
+    p, label{
+        font-family: Helvetica;
+        color: rgb(77, 77, 77);
+    }
+    
+    /* home */
+    img.logo{
+        width: 32%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    iframe{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    nav .navbar-nav.mx-auto > a{
+        color: rgb(134, 132, 132);
+        font-family: Helvetica;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;        
+    }
+
+    img.index{
+        width: 715px; 
+        height: 460px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    img.socialmedia{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    /* character */
+    img.character:hover{
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); 
+    }
+
+    /* register */
+
+    p.title-regis{
+        font-size: 20px;
+    }
+
+    .register{
+        width: 100%;
+    } 
+
+    img.register{
+        /* width: 60%;
+        height: 90%; */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+
+    /* detail */
+    .carousel-item {
+        height: 285px;
+        width: 600px;
+    }
+
+    p.name-detail, p.birth-detail{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    p.desc-detail{
+        font-size: 13px;
+    }
+
+    /* about */
+
+    p.title-about{
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    p.desc-about{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    img.icon{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .split {
+        height: 50%;
+        width: 50%;
+        position: absolute;
+        z-index: 1;
+        bottom: auto;
+        overflow-x: hidden;
+        padding-top: 20px;
+      }
+      
+      /* Control the left side */
+      .left {
+        left: 0;
+        background-color: #111;
+      }
+      
+      /* Control the right side */
+      .right {
+        right: 0;
+        background-image: url("../images/char/buzzwoody.png");
+      }
+      
+
+
